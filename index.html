@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive webpage using Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+      <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header class="bg-dark text-white ">
+        <div class="container">
+           <div class="row">
+             <div class="col-sm-8 col-md-7 py-4 px-1">
+                <h1>About Me</h1>
+                <p class="text-secondary">
+                            Add some information about 
+                            the album bellow,the author, 
+                            or any other background context. 
+                            Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.
+                        </p>
+
+
+            </div>
+           <div class="col-sm-4 col-md-4 py-4 px-1">
+                 <h4>Contact</h4>
+                        <li class="list-unstyled"><a href="#" class="text-light ">Follow on Twitter</a></li>
+                        <li class="list-unstyled"><a href="#" class="text-warning">Like on Facebook</a></li>
+                        <li class="list-unstyled"><a href="#" class="text-success">Email me</a></li>
+
+            </div>
+           </div>
+        </div>
+    </header>
+
+    <section class="menu-tag">
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page"  href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item text-white" href="#">Action</a></li>
+            <li><a class="dropdown-item text-white" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider text-white"></li>
+            <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    </section>
+    <main>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-80">
+      <img src="https://wallpaperaccess.com/full/1965466.jpg" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80">
+      <img src="https://cdn.siasat.com/wp-content/uploads/2022/12/ANI-20221212051245-835x1024.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <a href="#" class="btn btn-primary">Register</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-80">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.PvlMtTY3zWdxRHTyd9dSRQHaJQ?cb=ucfimg2&ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+    </main>
+<footer class="bg-body-tertiary text-center">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+      data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        data-mdb-ripple-init
+        class="btn text-white btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2020 Copyright:
+    <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</body>
+</html>
